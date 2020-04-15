@@ -2,7 +2,7 @@
 .video-background-header{
     border: 1rem solid white;
     position: relative;
-    z-index: -1;
+    z-index: 1;
     width: 100%; 
     height: 100vh;
 }
@@ -21,8 +21,7 @@
     font-size: 10rem;
     text-transform: uppercase;
     font-weight: 800;
-    background-color: rgba(255, 255, 255, 0.918);
-    color: #000;
+    background-color: rgba(255, 255, 255, 0.705);
     /* the magic property */
     mix-blend-mode: screen;
 
