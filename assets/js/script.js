@@ -39,9 +39,8 @@ var scene = new ScrollMagic.Scene({
   .addTo(controller);
 
 
-  /* ------------- WAVES ------------ */
-  /* ====== STEP 7 ====== */
-function step7 (phase, amplitude) {
+/* ------------- WAVES ------------ */
+/* function waves (phase, amplitude) {
   const linesAmount = 20;
   
   for(var k = 0; k < linesAmount; k++) {
@@ -68,6 +67,8 @@ function setup () {
   mouseY = height / 2;
   noFill();
 }
+
+//To make it responsive
 function windowResized () {
   let size = min(windowWidth, windowHeight) * 0.96;
   size = floor(size);
@@ -81,6 +82,6 @@ function draw () {
   const phase = millis() * 0.001;
   const amplitude = height * 0.1;
   
-  window['step' + 7](phase, amplitude);
+  waves(phase, amplitude);
   
-}
+} */
