@@ -1,8 +1,8 @@
-*, *::after, *::before {
+/* *, *::after, *::before {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+} */
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap');
 
@@ -10,4 +10,5 @@
 @import "header.scss";
 @import "links.scss";
 @import "3d-text.scss";
+@import "waves.scss";
 @import "animations.scss";
