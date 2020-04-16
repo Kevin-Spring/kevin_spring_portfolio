@@ -1,3 +1,5 @@
+//Copyright (c) 2020 by Louis Hoebregts (https://codepen.io/Mamboleoo/pen/xxbwqmz)
+
 /* ------------- WAVES ------------ */
 function waves (phase, amplitude) {
     const linesAmount = 20;
@@ -18,11 +20,41 @@ function waves (phase, amplitude) {
     }
   }
   
-  function draw () {
-    createCanvas(1680, 300);
+ /*  function draw () {
+    createCanvas(2800, 200);
     noFill();
     clear();
     const phase = millis() * 0.001;
     const amplitude = height * 0.1;
     waves(phase, amplitude);  
+  }
+
+  function windowResized () {
+    let size = min(windowWidth, windowHeight) * 0.96;
+    size = floor(size);
+    resizeCanvas(windowWidth, windowHeight);
+    noiseSeed(random(100));
+    draw();
+  } */
+
+  function setup () {
+    
+    createCanvas(windowWidth, windowHeight);
+    noiseSeed(random(100));
+    mouseY = height / 2;
+    noFill();
+  }
+  function windowResized () {
+    
+    resizeCanvas(windowWidth, windowHeight);
+    noiseSeed(random(100));
+    draw();
+  }
+
+  function draw () {
+    clear();
+    const phase = millis() * 0.001;
+    const amplitude = height * 0.1;
+    
+    waves(phase, amplitude);
   }
