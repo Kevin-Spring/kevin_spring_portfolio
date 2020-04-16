@@ -13,17 +13,27 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
 </head>
 
 <body>
 
-    <a href="index.html" class="home-btn"><i class="fas fa-igloo"></i></a>
+    <div class="wrapper">
+
+    <section class="section__links" id="stage">
+        <div class="section__links__item-wrapper">
+            <h3 class="section__links-item"> <a href="index.html" class="home-btn"><i class="fas fa-igloo"></i></a></h3>
+            <h3 class="section__links-item"> <a href="#" class="effect-box">About</a> </h3>
+            <h3 class="section__links-item"> <a href="contact.html" class="effect-box">Contact</a> </h3>
+            <h3 class="section__links-item"> <a href="#" class="effect-box">cv</a> </h3>
+        </div>
+    </section>
 
     <section class="section__contact" id="contact">
 
         <h2 class="contact__header">get in touch!</h2>
        
-        <form action="kevinspring93@hotmail.com" method="post" enctype="text/plain">
+        <form action="mailto:kevinspring93@hotmail.com" method="post" enctype="text/plain">
             <div class="form__container">
                 <div class="form__group field">
                     <input type="text" class="form__field" placeholder="Name" name="name" id='name' required />
@@ -44,11 +54,8 @@
                 </div>
             </div>
         </form>
-        
-
     </section>
-
-
+</div>
 
     <!-- Import scripts for the blob -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js"></script>

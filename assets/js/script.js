@@ -21,11 +21,11 @@ document.addEventListener('mousemove', (e) => {
 
 
 /* Animation for the links */
-gsap.from(".header", {duration: 1, opacity: 0, y:150, stagger: 0.25});
+gsap.from(".section__links-item", {autoAlpha:0, duration: 1, stagger: 0.25});
 
 
 /* GSAP Scrollamgic for the links */
-var controller = new ScrollMagic.Controller();
+/* var controller = new ScrollMagic.Controller();
 var tl = new TimelineMax();
 tl.staggerFrom(".section__links-item", 1.25, {
   duration: 1, opacity: 0, stagger: 0.25
@@ -37,3 +37,4 @@ var scene = new ScrollMagic.Scene({
 
   .setTween(tl)
   .addTo(controller);
+ */

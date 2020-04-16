@@ -1,15 +1,11 @@
 body{
-  overflow:hidden;
+  background: black;
 }
 .section__contact{
-    background: rgba(0, 0, 0, 0.39);
+    background: rgba(0, 0, 0, 0.534);
 }
 .home-btn{
-  font-size: 5rem;
   color: white;
-  position: absolute;
-  left: 5%;
-  top: 1rem;
 }
 .contact__header{
     font-family: $fontfamily;
