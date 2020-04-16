@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  height: 100vh;
+  background: black;
+  z-index: -100;
+}
+canvas {
+  margin: auto;
+  touch-action: none;
+}
+
