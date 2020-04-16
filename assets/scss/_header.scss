@@ -1,31 +1,21 @@
-
-.video-background-header{
+.navbar__links{
     border: 1rem solid white;
-    position: relative;
-    z-index: 1;
-    width: 100%; 
-    height: 100vh;
+    padding: 1rem;
 }
 
-.header__video__titel{
-    text-align: center;
-    text-transform: uppercase;
-    position: absolute;
-    top: 60%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    word-wrap: break-word;
+.navbar__links__item-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar__links-item{
+    visibility:hidden;
+    display: inline-block;
+    position: relative;
     font-family: $fontfamily;
-    font-size: 10rem;
+    font-size: 7rem;
     text-transform: uppercase;
     font-weight: 800;
-    color: black;
-    text-shadow:
-   -1px -1px 0 rgb(255, 255, 255),  
-    1px -1px 0 rgb(255, 255, 255),
-    -1px 1px 0 rgb(255, 255, 255),
-     1px 1px 0 rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0.705);
-    mix-blend-mode: screen;
+    color: white;
 }

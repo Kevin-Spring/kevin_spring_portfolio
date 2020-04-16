@@ -1,0 +1,66 @@
+.wrapper {
+    font-family: $fontfamily;
+    color: white;
+}
+
+.threeD{
+    margin-top: 4rem;
+}
+
+.main{
+    border-radius: 5rem;
+    background: $charleston-green;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.63);
+    border-right: 1px solid rgba(255, 192, 203, 0.5);
+    border-bottom: 1px solid rgba(255, 192, 203, 0.5);
+}
+
+.main__header{
+    color: $wenge;
+    text-align: center;
+    font-size: 8rem;
+}
+
+.hand{
+    position: relative;
+    margin-top: 2%;
+    left: 25%;
+    font-size: 10rem;
+    animation: hand 1s ease-in-out;
+    transform: rotate(-20deg);
+}
+
+.about__socials{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about__social-link{
+    font-size: 8rem;
+    color: white;
+    transition: .6s ease-in-out;
+    margin-top: 80%;
+}
+.about__social-link:hover{
+    transform: scale(1.1);
+}
+
+@keyframes hand{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(20deg);
+    }
+    100%{
+        transform: rotate(-20deg);
+    }
+}
+
+
+
