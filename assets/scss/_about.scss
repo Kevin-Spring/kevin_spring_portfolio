@@ -1,4 +1,4 @@
-.wrapper {
+.about__wrapper {
     font-family: $fontfamily;
     color: white;
 }
@@ -8,22 +8,23 @@
 }
 
 .main{
-    border-radius: 5rem;
-    background: $charleston-green;
+    background: $wenge;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
     padding: 2rem;
-    border: 1px solid rgba(255, 255, 255, 0.63);
-    border-right: 1px solid rgba(255, 192, 203, 0.5);
-    border-bottom: 1px solid rgba(255, 192, 203, 0.5);
 }
 
 .main__header{
-    color: $wenge;
+    color: $charleston-green;
     text-align: center;
     font-size: 8rem;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+
+.main__content{
+    padding: 2rem;
 }
 
 .hand{
@@ -47,6 +48,16 @@
     margin-top: 80%;
 }
 .about__social-link:hover{
+    transform: scale(1.1);
+    color: rgba(255, 192, 203, 0.822);
+}
+.spotify{
+    margin: 1.5rem;
+    padding: 1rem;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    transition: 0.3s;
+}
+.spotify:hover{
     transform: scale(1.1);
 }
 
