@@ -7,4 +7,9 @@
 .social-link{
     font-size: 10rem;
     color: white;
+    transition: .6s ease-in-out;
+}
+
+.social-link:hover{
+    transform: scale(1.1);
 }
