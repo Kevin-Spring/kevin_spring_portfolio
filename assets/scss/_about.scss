@@ -1,6 +1,6 @@
 .about__wrapper {
     font-family: $fontfamily;
-    color: black;
+    color: $baby-powder
 }
 
 .threeD{
@@ -8,7 +8,7 @@
 }
 
 .main{
-    background: $baby-powder;
+    background: rgb(37, 37, 37);
     position: absolute;
     top: 50%;
     left: 50%;
