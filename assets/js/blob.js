@@ -1,3 +1,5 @@
+//Copyright (c) 2020 by Louis Hoebregts (https://codepen.io/Mamboleoo/pen/QWbmPGZ)
+
 const _noise = noise;
 _noise.seed(Math.random() * 100);
 const anim = {t: 0};
