@@ -1,6 +1,6 @@
 .about__wrapper {
     font-family: $fontfamily;
-    color: white;
+    color: black;
 }
 
 .threeD{
@@ -8,16 +8,17 @@
 }
 
 .main{
-    background: $wenge;
+    background: $baby-powder;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
     padding: 2rem;
+    box-shadow: inset 0 20px 16px 0 rgba(0, 0, 0, 0.2), inset 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
 .main__header{
-    color: $charleston-green;
+    color: $wenge;
     text-align: center;
     font-size: 8rem;
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
