@@ -1,14 +1,20 @@
-/* *, *::after, *::before {
+*, *::after, *::before {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-} */
+}
+
+body {
+    overflow-x: hidden;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap');
 
 @import "variables.scss";
 @import "header.scss";
 @import "links.scss";
+//Copyright (c) 2020 by Vadym (https://codepen.io/vadimhimself/pen/vwgKqO)
 @import "3d-text.scss";
+//Copyright (c) 2020 by Louis Hoebregts (https://codepen.io/Mamboleoo/pen/xxbwqmz)
 @import "waves.scss";
 @import "animations.scss";

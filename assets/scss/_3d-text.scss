@@ -1,17 +1,12 @@
-
-.section{
-  background-color: rgb(20,20,20);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  height: 100vh;
-}
-
+//Copyright (c) 2020 by Vadym (https://codepen.io/vadimhimself/pen/vwgKqO)
 .wrap {
-    position: relative;
+    position: absolute;
     perspective: 100px;
     text-transform: uppercase;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid white;
   }
   
   .text {
@@ -20,10 +15,10 @@
     position: absolute;
     top: 0;
     left: 0;
-    color: rgb(25,25,25);
-    font-size: 10vw;
+    color: black;
+    font-size: 8vw;
     font-weight: bold;
-    /* border: 2px solid purple; */
+    border: 2px solid purple;
     text-shadow:
     -1px -1px 0 rgba(240,240,240,1),  
     1px -1px 0 rgba(240,240,240,1),
