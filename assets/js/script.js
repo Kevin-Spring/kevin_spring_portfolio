@@ -42,7 +42,7 @@ gsap.to(".main-animation", { duration: 2, ease: "elastic.out(1, 0.3)", y: -100 }
 
 var controller = new ScrollMagic.Controller();
 var tl = new TimelineMax();
-tl.staggerFrom(".main__projects-item", 1.25, {
+tl.staggerFrom(".bounce", 1.25, {
   scale: 0,
   cycle: {
     y: [-10, 10]

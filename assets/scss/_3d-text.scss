@@ -14,9 +14,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
   
   .text {
-    border: 1px solid rgba(240, 240, 240, 0.7);
-    border-right: 1px solid rgba(255, 192, 203, 0.5);
-    border-bottom: 1px solid rgba(255, 192, 203, 0.5);
+    border: 1px solid $baby-powder;
+    border-right: 1px solid $baby-powder;
+    border-bottom: 1px solid $baby-powder;
     border-radius: 30%;
     font-family: 'Heebo', sans-serif;
     font-weight: 500;
@@ -28,10 +28,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     font-size: 6vw;
     font-weight: bold;
     text-shadow:
-    -1px -1px 0 rgba(240, 240, 240, 0.7),  
-    1px -1px 0 rgba(255, 192, 203, 0.5),
-    -1px 1px 0 rgba(240,240,240,0.7),
-     1px 1px 0 rgba(255, 192, 203, 0.5);
+    -1px -1px 0 $baby-powder,  
+    1px -1px 0 $baby-powder,
+    -1px 1px 0 $baby-powder,
+     1px 1px 0 $baby-powder;
     transform-style: preserve-3d;
 
 }

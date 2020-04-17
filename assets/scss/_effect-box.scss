@@ -54,15 +54,15 @@ a.effect-box:before {
 }
 
 a.effect-box:before {
-  border-left: 1px solid;
-  border-right: 1px solid;
+  border-left: 1px solid $baby-powder;
+  border-right: 1px solid $baby-powder;
   -webkit-transform: scale(1,0);
 	transform: scale(1,0);
 }
 
 a.effect-box:after {
-  border-bottom: 1px solid;
-  border-top: 1px solid;
+  border-bottom: 1px solid $baby-powder;
+  border-top: 1px solid $baby-powder;
   -webkit-transform: scale(0,1);
 	transform: scale(0,1);
 }

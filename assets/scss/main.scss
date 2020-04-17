@@ -3,17 +3,18 @@
     margin: 0;
     padding: 0;
 }
-
+@import "variables.scss";
 body {
     overflow-x: hidden;
+    background: $faded-black;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap');
 
-@import "variables.scss";
-@import "header.scss";
+
+//@import "header.scss";
 @import "navbar.scss";
-@import "animations.scss";
+@import "effect-box.scss";
 @import "socials.scss";
 @import "contact.scss";
 @import "about.scss";
@@ -26,10 +27,6 @@ body {
 
 //-------------//
 //Copyright (c) 2020 by Louis Hoebregts (https://codepen.io/Mamboleoo/pen/xxbwqmz)
-@import "waves&blob.scss";
-//-------------//
-
-//-------------//
 //Copyright (c) 2020 by Louis Hoebregts (https://codepen.io/Mamboleoo/pen/QWbmPGZ)
-@import "blob.scss";
+@import "waves&blob.scss";
 //-------------//

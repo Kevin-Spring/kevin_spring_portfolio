@@ -8,7 +8,7 @@
 }
 
 .main{
-    background: white;
+    background: $baby-powder;
     position: absolute;
     width: 80vw;
     top: 60%;
@@ -20,6 +20,7 @@
 
 .main__header{
     color: $wenge;
+    background: $baby-powder;
     text-align: center;
     font-size: 8rem;
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
@@ -31,11 +32,6 @@
 }
 
 .main__underheader{
-    text-align: center;
-    font-size: 4rem;
-}
-
-.main__underheader-music{
     text-align: center;
     font-size: 4rem;
 }
@@ -78,17 +74,30 @@
     
 }
 
-.main__projects-item-img:hover{
-    transition: .5s ease;
-    color: $jelly-bean;
-    letter-spacing: 10px;
+@mixin main__projects-item-img{
+    color: $wenge;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: 1px dashed;
+    padding: 2rem;
+}
+
+.main__projects-item-img-leopard{
+    @include main__projects-item-img;
+    color: $baby-powder;
 }
 
 .main__projects-item-img{
-    color: $wenge;
-    padding: 2rem;
-    font-size: 2rem;
-    font-weight: 700;
+    @include main__projects-item-img;
+}
+
+.main__projects-item-img:hover{
+    transition: .5s ease;
+    color: $pastel-grey;
+}
+.main__projects-item-img-leopard:hover{
+    transition: .5s ease;
+    color: $pastel-grey;
 }
 
 .hand{
@@ -110,10 +119,11 @@
     font-size: 8rem;
     color: black;
     transition: .6s ease-in-out;
+    margin-top: 2rem;
 }
 .about__social-link:hover{
     transform: scale(1.1);
-    color: rgba(255, 192, 203, 0.822);
+    color: $faded-black;
 }
 
 .main__spotify-container{
@@ -125,9 +135,10 @@
 .spotify{
     //box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
     transition: 0.3s ease-in-out;
+    margin-top: 2rem;
 }
 .spotify:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 @keyframes hand{

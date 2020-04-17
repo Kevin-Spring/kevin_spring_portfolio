@@ -1,0 +1,28 @@
+.navbar__links{
+    border: 1rem solid $baby-powder;
+    padding: 1rem;
+}
+
+.navbar__links__item-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar__links-item{
+    visibility:hidden;
+    display: inline-block;
+    position: relative;
+    font-family: $fontfamily;
+    font-size: 7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: $baby-powder;
+}
+.iglo{
+    color: $baby-powder;
+}
+.iglo:hover{
+    color: #EDF5FF;
+    transition: 1s ease-in-out;
+}
