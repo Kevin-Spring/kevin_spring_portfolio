@@ -1,6 +1,6 @@
 .about__wrapper {
     font-family: $fontfamily;
-    color: $baby-powder
+    color: $wenge;
 }
 
 .threeD{
@@ -8,9 +8,10 @@
 }
 
 .main{
-    background: rgb(37, 37, 37);
+    background: white;
     position: absolute;
-    top: 50%;
+    width: 80vw;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%);
     padding: 2rem;
@@ -26,6 +27,68 @@
 
 .main__content{
     padding: 2rem;
+    font-size: 1.5rem;
+}
+
+.main__underheader{
+    text-align: center;
+    font-size: 4rem;
+}
+
+.main__underheader-music{
+    text-align: center;
+    font-size: 4rem;
+}
+
+.main__projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 25rem;
+    padding: 10px;
+}
+
+@mixin main__projects-item{
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    max-width: 100%;
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid #E4DFDA;
+    text-align: center;
+    line-height: 19rem;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+.main__projects-item-1{
+    @include main__projects-item;
+    background: url(../img/crookedtrees_pre.jpg);
+}
+
+.main__projects-item-2{
+    background: url(../img/leopard_pre.jpg);
+    @include main__projects-item;
+    
+}
+.main__projects-item-3{
+    background: url(../img/kalkylator_pre.jpg);
+    @include main__projects-item;
+    
+}
+
+.main__projects-item-img:hover{
+    transition: .5s ease;
+    color: $jelly-bean;
+    letter-spacing: 10px;
+}
+
+.main__projects-item-img{
+    color: $wenge;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 .hand{
@@ -40,23 +103,28 @@
 .about__socials{
     display: flex;
     justify-content: space-around;
+    align-items: flex-end;
 }
 
 .about__social-link{
     font-size: 8rem;
-    color: white;
+    color: black;
     transition: .6s ease-in-out;
-    margin-top: 80%;
 }
 .about__social-link:hover{
     transform: scale(1.1);
     color: rgba(255, 192, 203, 0.822);
 }
+
+.main__spotify-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .spotify{
-    margin: 1.5rem;
-    padding: 1rem;
-    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
-    transition: 0.3s;
+    //box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    transition: 0.3s ease-in-out;
 }
 .spotify:hover{
     transform: scale(1.1);

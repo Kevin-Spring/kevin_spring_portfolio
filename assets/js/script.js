@@ -35,20 +35,56 @@ document.addEventListener('mousemove', (e) => {
 /* GSAP ANIMATIONS */
 /* Animation for the links */
 gsap.from(".stagger-animation", {autoAlpha:0, duration: 1, stagger: 0.25});
-gsap.from(".main-animation", {autoAlpha:0, duration: 1, y:150, stagger: 0.25});
+gsap.to(".main-animation", { duration: 2, ease: "elastic.out(1, 0.3)", y: -100 });
 
 
 /* GSAP Scrollamgic for the links */
-/* var controller = new ScrollMagic.Controller();
+
+var controller = new ScrollMagic.Controller();
 var tl = new TimelineMax();
-tl.staggerFrom(".section__links-item", 1.25, {
-  duration: 1, opacity: 0, stagger: 0.25
+tl.staggerFrom(".main__projects-item", 1.25, {
+  scale: 0,
+  cycle: {
+    y: [-10, 10]
+  },
+  ease: Elastic.easeOut,
+  stagger: {
+    from: "center",
+    amount: 0.25
+  }
 });
 
 var scene = new ScrollMagic.Scene({
-  triggerElement: "#stage"
+   triggerElement: "#stage",
+    triggerHook: 0, 
+    offset: 400
 })
-
+  /* .addIndicators({
+    colorTrigger: "white",
+    colorStart: "red",
+    colorEnd: "white",
+    indent: 5
+  }) */
   .setTween(tl)
   .addTo(controller);
- */
+
+
+  var controller = new ScrollMagic.Controller();
+  var tl = new TimelineMax();
+  tl.staggerFrom(".spotify", 0.25, {
+  duration: 1, opacity: 0, stagger: 0.25,
+});
+
+var scene = new ScrollMagic.Scene({
+  triggerElement: "#stage",
+  triggerHook: 0, 
+    offset: 700
+})
+/* .addIndicators({
+  colorTrigger: "white",
+  colorStart: "red",
+  colorEnd: "white",
+  indent: 5
+}) */
+  .setTween(tl)
+  .addTo(controller);
