@@ -8,24 +8,24 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
  */
 .wrap {
+    margin-top: 5rem;
     position: relative;
     perspective: 100px;
     text-transform: uppercase;
+    height: 20rem;
   }
   
   .text {
     border: 1px solid $baby-powder;
-    border-right: 1px solid $baby-powder;
-    border-bottom: 1px solid $baby-powder;
-    border-radius: 30%;
+    padding: 5rem;
     font-family: 'Heebo', sans-serif;
     font-weight: 500;
     position: absolute;
     top: 0;
     left: 50%;
+    color: $faded-black;
     transform: translateX(-50%);
-    color: black;
-    font-size: 6vw;
+    font-size: 10vw;
     font-weight: bold;
     text-shadow:
     -1px -1px 0 $baby-powder,  

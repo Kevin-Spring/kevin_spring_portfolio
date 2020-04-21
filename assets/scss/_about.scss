@@ -3,15 +3,11 @@
     color: $wenge;
 }
 
-.threeD{
-    margin-top: 4rem;
-}
-
 .main{
     background: $baby-powder;
     position: absolute;
     width: 80vw;
-    top: 60%;
+    top: 90%;
     left: 50%;
     transform: translateX(-50%);
     padding: 2rem;
@@ -123,7 +119,7 @@
 }
 .about__social-link:hover{
     transform: scale(1.1);
-    color: $faded-black;
+    color: $jelly-bean;
 }
 
 .main__spotify-container{
