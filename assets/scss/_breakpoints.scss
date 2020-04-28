@@ -1,0 +1,79 @@
+/* Large screens */
+@media only screen  and (min-width : 2101px) and (max-width : 2560px) {
+    
+}
+
+/* Desktops and laptops */
+@media only screen  and (min-width : 1651px) and (max-width : 2100px) {
+    
+}
+
+/* Ipad (Landscape and Portrait */
+@media only screen and (min-width : 801px) and (max-width : 1025px) {
+    /* Navbar */
+    .navbar__links-item{
+        font-size: 4rem;
+    }
+    /* Landing Page */
+    .socials{
+        position: relative;
+        margin-top: 70%;
+    }
+    .social-link{
+        font-size: 6rem;
+    }
+    /* About */
+    .main{
+        top: 70%;
+    }
+    .main__header{
+        font-size: 4rem;
+    }
+    .main__projects-container{
+        margin-bottom: 50vh;
+    }
+    /* Contact */
+    .contact__header{
+        font-size: 5rem;
+    }
+    .form-btn{
+        font-size: 1rem;
+    }
+}
+
+/* Smartphones (Landscape and Portrait) */
+@media only screen and (min-width : 300px) and (max-width : 800px){
+    
+    /* Navbar */
+    .navbar__links-item{
+        font-size: 4rem;
+    }
+    /* Landing Page */
+    .socials{
+        position: relative;
+        margin-top: 90%;
+    }
+    .social-link{
+        font-size: 6rem;
+    }
+    /* About */
+    .main{
+        top: 80%;
+    }
+    .main__header{
+        font-size: 4rem;
+    }
+    .main__content{
+        font-size: 1rem;
+    }
+    .main__projects-container{
+        margin-bottom: 70vh;
+    }
+    /* Contact */
+    .contact__header{
+        font-size: 4rem;
+    }
+    .form-btn{
+        font-size: 1rem;
+    }
+}

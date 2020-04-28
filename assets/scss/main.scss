@@ -1,24 +1,14 @@
-*, *::after, *::before {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-@import "variables.scss";
-body {
-    overflow-x: hidden;
-    background: $faded-black;
-}
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap');
 
-
-//@import "header.scss";
+@import "variables.scss";
 @import "navbar.scss";
 @import "effect-box.scss";
 @import "socials.scss";
 @import "contact.scss";
 @import "about.scss";
 @import "cv.scss";
+@import "breakpoints.scss";
 
 //-------------//
 //Copyright (c) 2020 by Vadym (https://codepen.io/vadimhimself/pen/vwgKqO)
@@ -30,3 +20,15 @@ body {
 //Copyright (c) 2020 by Louis Hoebregts (https://codepen.io/Mamboleoo/pen/QWbmPGZ)
 @import "waves&blob.scss";
 //-------------//
+
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background: $faded-black;
+}

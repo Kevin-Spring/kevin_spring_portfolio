@@ -25,23 +25,6 @@ function waves (phase, amplitude) {
       endShape();
     }
   }
-  
- /*  function draw () {
-    createCanvas(2800, 200);
-    noFill();
-    clear();
-    const phase = millis() * 0.001;
-    const amplitude = height * 0.1;
-    waves(phase, amplitude);  
-  }
-
-  function windowResized () {
-    let size = min(windowWidth, windowHeight) * 0.96;
-    size = floor(size);
-    resizeCanvas(windowWidth, windowHeight);
-    noiseSeed(random(100));
-    draw();
-  } */
 
   function setup () {
     

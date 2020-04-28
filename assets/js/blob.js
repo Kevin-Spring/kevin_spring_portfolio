@@ -14,15 +14,10 @@ const anim = {t: 0};
 let ctx;
 console.clear();
 
-/* ====== STEP 6 ====== */
 let frames = 0;
-function goToStep6 () {
-  loop();
-  ctx.fillStyle = 'black';
-  frames = 0;
-}
 
-function step6 () {
+
+function Blob () {
   clear();
   let r = min(width, height) * 0.35;
   const rings = 70;
@@ -51,9 +46,15 @@ function setup () {
   const canvas = createCanvas(windowWidth, windowHeight);
   ctx = canvas.drawingContext;
 }
+function windowResized () {
+    
+  resizeCanvas(windowWidth, windowHeight);
+  noiseSeed(random(100));
+  draw();
+}
 
 function draw () {
-  window['step' + 6]();
+  Blob();
 }
 
 

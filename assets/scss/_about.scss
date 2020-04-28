@@ -39,6 +39,8 @@
     align-items: center;
     height: 25rem;
     padding: 10px;
+    position: relative;
+    margin-bottom: 10rem;
 }
 
 @mixin main__projects-item{
@@ -123,6 +125,7 @@
 }
 
 .main__spotify-container{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
