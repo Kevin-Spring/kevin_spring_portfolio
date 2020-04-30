@@ -83,33 +83,53 @@
     padding: 4rem;
 }
 
-@mixin main__projects-item{
+/* @mixin main__projects-item{
     background-position: center;
-    background-size: cover;
+    background-size: cover; 
     border-radius: 5px;
     max-width: 100%;
     height: 20rem;
     width: 20rem;
     text-align: center;
     position: relative;
-}
-.main__projects-item-1{
+} */
+/* .main__projects-item-1{
     @include main__projects-item;
-    background: url(../img/crookedtrees_pre.jpg);
+    //background: url(../img/crookedtrees_pre.jpg);
 }
 
 .main__projects-item-2{
-    background: url(../img/leopard_pre.jpg);
+    //background: url(../img/leopard_pre.jpg);
     @include main__projects-item;
     
 }
 .main__projects-item-3{
-    background: url(../img/kalkylator_pre.jpg);
+    //background: url(../img/kalkylator_pre.jpg);
     @include main__projects-item;
     
+} */
+
+.main__projects-item{
+    height: 10rem;
+    width: 20rem;
+    text-align: center;
+    position: relative;
+    border: 1px dashed $baby-powder;
+} 
+.main__projects-item:hover{
+    border: 1px solid $baby-powder;
 }
 
-@mixin main__projects-item-img{
+.main__projects-item-img{
+    color: $baby-powder;
+    font-size: 1.5rem;
+    padding: 2rem;
+    position: relative;
+    top: 4rem;
+
+}
+
+/* @mixin main__projects-item-img{
     color: $wenge;
     font-size: 1.5rem;
     font-weight: 700;
@@ -119,34 +139,34 @@
     top: 50%;
     transform: translateY(-50%);
     
-}
+} */
 
-.main__projects-item-img-leopard{
+/* .main__projects-item-img-leopard{
     @include main__projects-item-img;
     color: $baby-powder;
 }
 
 .main__projects-item-img{
     @include main__projects-item-img;
-}
+} */
 
-.main__projects-item-img:hover{
+/* .main__projects-item-img:hover{
     transition: .5s ease;
     color: $pastel-grey;
 }
 .main__projects-item-img-leopard:hover{
     transition: .5s ease;
     color: $pastel-grey;
-}
+} */
 
-.hand{
+/* .hand{
     position: relative;
     margin-top: 2%;
     left: 25%;
     font-size: 10rem;
     animation: hand 1s ease-in-out;
     transform: rotate(-20deg);
-}
+} */
 
 .main__spotify-container{
     position: relative;
@@ -166,7 +186,7 @@
     transform: scale(1.05);
 }
 
-@keyframes hand{
+/* @keyframes hand{
     0%{
         transform: rotate(0deg);
     }
@@ -176,7 +196,7 @@
     100%{
         transform: rotate(-20deg);
     }
-}
+} */
 
 
 

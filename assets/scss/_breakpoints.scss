@@ -10,9 +10,15 @@
         height: 112vh;
         
     }
-    
+
     .main__header{
         font-size: 8rem;
+    }
+    .main__underheader{
+        font-size: 7rem;
+    }
+    .about__social-link{
+        margin-top: 6rem;
     }
     /* Contact */
     .section__contact{
@@ -37,7 +43,7 @@
         margin-top: 0vh;
     }
     .border{
-        height: 119vh;
+        height: 135vh;
     }
     .main{
         top: 70%;
@@ -51,35 +57,16 @@
     .main__content{
         font-size: 1rem;
     }
-    .main__projects-item-1,
-    .main__projects-item-2,
-    .main__projects-item-3{
-        height: 5rem;
-        width: 19.3rem;
+    .main__projects-item{
         margin: 1rem;
-        left: 50%;
-        transform: translateX(-50%);
-        background: none;
     }
-    .main__projects-item-img{
-        font-size: 1rem;
-        color: $baby-powder;
-        width: 12rem;
-        height: 5rem;
-        display: block;
-    }
-    .main__projects-item-img-leopard{
-        font-size: 1rem;
-        width: 12rem;
-        height: 5rem;
-        display: block;
-    }
+
     .about__social-link{
         font-size: 3rem;
         margin-top: 5rem;
     }
     iframe{
-        height: 100px;
+        height: 80px;
         width: 80px;
     }
     /* Contact */
@@ -127,34 +114,21 @@
         top: 5vh;
         margin-bottom: 2rem;
     }
-    .main__projects-item-1,
-    .main__projects-item-2,
-    .main__projects-item-3{
-        height: 5rem;
-        width: 10rem;
+    .main__projects-item{
         margin: 1rem;
-        left: -11vw;
-        background: none;
     }
     .main__projects-item-img{
-        font-size: 1rem;
-        color: $baby-powder;
-        width: 12rem;
-        height: 5rem;
-        display: block;
+        font-size: 1.2rem;
     }
-    .main__projects-item-img-leopard{
-        font-size: 1rem;
-        width: 12rem;
-        height: 5rem;
-        display: block;
+    .main__projects-container{
+        padding: 0;
     }
     .about__social-link{
         font-size: 3rem;
         margin-top: 5rem;
     }
     iframe{
-        height: 100px;
+        height: 80px;
         width: 80px;
     }
     /* Contact */
