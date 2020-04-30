@@ -2,6 +2,7 @@
 .section__contact{
   margin-top: 100px;
   background: rgba(0, 0, 0, 0.534);
+  height: 100vh;
 }
 .home-btn{
   color: white;
@@ -15,6 +16,14 @@
     padding-top: 5rem;
     text-transform: uppercase;
 
+}
+
+.socials-contact{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: -4rem;
 }
 
 .form__container{
@@ -56,7 +65,7 @@
         top: -1rem;
         display: block;
         transition: 0.2s;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         color: $light-jelly-bean;
       }
       
@@ -67,12 +76,10 @@
           display: block;
           transition: 0.2s;
           font-size: 1rem;
-          color: $baby-powder;
-          font-weight:700;    
+          color: $baby-powder;    
         }
         padding-bottom: 6px;
         border-bottom: 2px solid $dark-vanilla;
-        font-weight: 700;
         border-width: 3px;
         border-image: linear-gradient(to right, $baby-powder,$light-jelly-bean);
         border-image-slice: 1;
@@ -130,5 +137,7 @@
       
 
 }
+
+
 
 

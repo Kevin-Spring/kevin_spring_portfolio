@@ -1,25 +1,61 @@
 .about__wrapper {
     font-family: $fontfamily;
-    color: $wenge;
+    color: $baby-powder;
+}
+.border-wrapper{
+    position: relative;
+    perspective: 100px;
+    text-transform: uppercase;
+    margin-top: 25vh;
+}
+.border{
+    border: 1px solid $baby-powder;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow:
+    -1px -1px 0 $baby-powder,  
+    1px -1px 0 $baby-powder,
+    -1px 1px 0 $baby-powder,
+     1px 1px 0 $baby-powder;
+    transform-style: preserve-3d;
+    display: block;
+    height: 135vh;
+    width: 80vw;
 }
 
 .main{
-    background: $baby-powder;
+    /* background: $baby-powder; */
     position: absolute;
     width: 80vw;
     top: 90%;
     left: 50%;
     transform: translateX(-50%);
     padding: 2rem;
-    box-shadow: inset 0 20px 16px 0 rgba(0, 0, 0, 0.2), inset 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main__header-wrapper{
+    position: relative;
+    perspective: 100px;
+    text-transform: uppercase;
+    margin-bottom: 12rem;
 }
 
 .main__header{
-    color: $wenge;
-    background: $baby-powder;
-    text-align: center;
+    padding: 2rem;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow:
+    -1px -1px 0 $baby-powder,  
+    1px -1px 0 $baby-powder,
+    -1px 1px 0 $baby-powder,
+     1px 1px 0 $baby-powder;
+    transform-style: preserve-3d;
+    color: $faded-black;
     font-size: 8rem;
-    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
 }
 
 .main__content{
@@ -30,6 +66,7 @@
 .main__underheader{
     text-align: center;
     font-size: 4rem;
+    letter-spacing: 5px;
 }
 
 .main__projects-container{
@@ -37,10 +74,10 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    height: 25rem;
-    padding: 10px;
     position: relative;
     margin-bottom: 10rem;
+    border: 1px solid $baby-powder;
+    padding: 4rem;
 }
 
 @mixin main__projects-item{
@@ -50,11 +87,7 @@
     max-width: 100%;
     height: 20rem;
     width: 20rem;
-    border: 2px solid #E4DFDA;
     text-align: center;
-    line-height: 19rem;
-    letter-spacing: 3px;
-    font-size: 40px;
 }
 .main__projects-item-1{
     @include main__projects-item;
@@ -78,6 +111,10 @@
     font-weight: 700;
     border: 1px dashed;
     padding: 2rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    
 }
 
 .main__projects-item-img-leopard{
@@ -115,13 +152,13 @@
 
 .about__social-link{
     font-size: 8rem;
-    color: black;
+    color: $baby-powder;
     transition: .6s ease-in-out;
     margin-top: 2rem;
 }
 .about__social-link:hover{
     transform: scale(1.1);
-    color: $jelly-bean;
+    color: $mint;
 }
 
 .main__spotify-container{
@@ -129,6 +166,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    border: 1px solid $baby-powder;
+    padding: 4rem;
 }
 
 .spotify{

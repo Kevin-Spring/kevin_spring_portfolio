@@ -1,11 +1,15 @@
 /* Large screens */
 @media only screen  and (min-width : 2101px) and (max-width : 2560px) {
-    
-}
-
-/* Desktops and laptops */
-@media only screen  and (min-width : 1651px) and (max-width : 2100px) {
-    
+   
+    /* About */
+    .main{
+        top: 80%;
+    }
+    /* Contact */
+    .section__contact{
+        height: 80vh;
+    }
+   
 }
 
 /* Ipad (Landscape and Portrait */
@@ -15,10 +19,7 @@
         font-size: 4rem;
     }
     /* Landing Page */
-    .socials{
-        position: relative;
-        margin-top: 70%;
-    }
+    
     .social-link{
         font-size: 6rem;
     }
@@ -49,16 +50,13 @@
         font-size: 4rem;
     }
     /* Landing Page */
-    .socials{
-        position: relative;
-        margin-top: 90%;
-    }
+    
     .social-link{
         font-size: 6rem;
     }
     /* About */
     .main{
-        top: 80%;
+        top: 100%;
     }
     .main__header{
         font-size: 4rem;
@@ -67,13 +65,57 @@
         font-size: 1rem;
     }
     .main__projects-container{
-        margin-bottom: 70vh;
+        margin-bottom: 80vh;
+    }
+    .main__projects-item-1,
+    .main__projects-item-2,
+    .main__projects-item-3{
+        height: 15rem;
+        width: 15rem;
+        margin: 1rem;
+        font-size: 20px;
+    }
+    .main__projects-item-img{
+        font-size: 1rem;
+    }
+    .main__projects-item-img-leopard{
+        font-size: 1rem;
+    }
+    .about__social-link{
+        font-size: 3rem;
     }
     /* Contact */
+    .section__contact{
+        height: 130vh;
+    }
     .contact__header{
         font-size: 4rem;
     }
     .form-btn{
         font-size: 1rem;
+    }
+    .form__container{
+    
+        .form__group {
+            left: 0;
+            width: 100%;
+          }
+          
+          .form__field {
+          
+            &::placeholder {
+              color: transparent;
+            }
+          
+            &:placeholder-shown ~ .form__label {
+              font-size: 1rem;
+            }
+          }
+          .form__label {
+    
+            font-size: 1.3rem;
+
+          }
+          
     }
 }

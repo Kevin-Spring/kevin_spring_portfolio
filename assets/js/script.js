@@ -20,6 +20,7 @@ text.forEach((el, i) => {
   });
 });
 
+
 document.addEventListener('mousemove', (e) => {
   text.forEach((el, i) => {
     TweenMax.to(el, 0.5, {
@@ -31,6 +32,19 @@ document.addEventListener('mousemove', (e) => {
 
 /* ------------ END OF 3D TEXT ------------ */
 
+const border = document.querySelectorAll('.border');
+border.forEach((el, i) => {
+  TweenMax.to(el, 1, {
+    z: 1 * (i + 8)
+  });
+});
+
+const mainHeader = document.querySelectorAll('.main__header');
+mainHeader.forEach((el, i) => {
+  TweenMax.to(el, 1, {
+    z: 1 * (i + 8)
+  });
+});
 
 /* GSAP ANIMATIONS */
 /* Animation for the links */

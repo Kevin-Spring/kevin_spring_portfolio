@@ -1,8 +1,10 @@
 .socials{
     display: flex;
     justify-content: space-around;
-    margin-top: 30%;
     flex-wrap: wrap;
+    position: absolute;
+    bottom: 1rem;
+    width: 100vw;
 }
 
 .social-link{
