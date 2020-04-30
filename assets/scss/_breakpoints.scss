@@ -22,38 +22,7 @@
 }
 
 /* Ipad (Landscape and Portrait */
-@media only screen and (min-width : 813px) and (max-width : 1025px) {
-    /* Navbar */
-    .navbar__links-item{
-        font-size: 4rem;
-    }
-    /* Landing Page */
-    
-    .social-link{
-        font-size: 6rem;
-    }
-    /* About */
-    .main{
-        top: 70%;
-    }
-    .main__header{
-        font-size: 4rem;
-    }
-    .main__projects-container{
-        margin-bottom: 50vh;
-    }
-    /* Contact */
-    .contact__header{
-        font-size: 5rem;
-    }
-    .form-btn{
-        font-size: 1rem;
-    }
-}
-
-/* Smartphones (Landscape and Portrait) */
-@media only screen and (min-width : 300px) and (max-width : 812px){
-    
+@media only screen and (min-width : 768px) and (max-width : 1025px) {
     /* Navbar */
     .navbar__links-item{
         font-size: 4rem;
@@ -68,10 +37,84 @@
         margin-top: 0vh;
     }
     .border{
+        height: 119vh;
+    }
+    .main{
+        top: 70%;
+    }
+    .main__header{
+        font-size: 4rem;
+    }
+    .main__underheader{
+        font-size: 2rem;
+    }
+    .main__content{
+        font-size: 1rem;
+    }
+    .main__projects-item-1,
+    .main__projects-item-2,
+    .main__projects-item-3{
+        height: 5rem;
+        width: 19.3rem;
+        margin: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        background: none;
+    }
+    .main__projects-item-img{
+        font-size: 1rem;
+        color: $baby-powder;
+        width: 12rem;
+        height: 5rem;
+        display: block;
+    }
+    .main__projects-item-img-leopard{
+        font-size: 1rem;
+        width: 12rem;
+        height: 5rem;
+        display: block;
+    }
+    .about__social-link{
+        font-size: 3rem;
+        margin-top: 5rem;
+    }
+    iframe{
+        height: 100px;
+        width: 80px;
+    }
+    /* Contact */
+    .contact__header{
+        font-size: 5rem;
+    }
+    .form-btn{
+        font-size: 1rem;
+    }
+    .social-link-contact{
+        font-size: 5rem;
+    }
+}
+
+/* Smartphones (Landscape and Portrait) */
+@media only screen and (min-width : 300px) and (max-width : 766px){
+    
+    /* Navbar */
+    .navbar__links-item{
+        font-size: 2rem;
+    }
+    /* Landing Page */
+    
+    .social-link{
+        font-size: 5rem;
+    }
+    /* About */
+    .border-wrapper{
+        margin-top: 0vh;
+    }
+    .border{
         height: 185vh;
     }
     .main{
-        top: 120%;
+        top: 70%;
     }
     .main__header{
         font-size: 4rem;
@@ -116,7 +159,7 @@
     }
     /* Contact */
     .section__contact{
-        height: 130vh;
+        height: 110vh;
     }
     .contact__header{
         font-size: 4rem;
@@ -148,4 +191,9 @@
           }
           
     }
+
+    .social-link-contact{
+        font-size: 3rem;
+    }
+
 }
