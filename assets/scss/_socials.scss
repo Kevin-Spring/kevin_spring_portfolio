@@ -1,3 +1,4 @@
+/* Landing Page */
 .socials{
     display: flex;
     justify-content: space-around;
@@ -17,4 +18,42 @@
 .social-link:hover{
     transform: scale(1.1);
     color: $light-jelly-bean;
+}
+
+/* CONTACT */
+.socials-contact{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: -4rem;
+  }
+  
+  .social-link-contact{
+    font-size: 10rem;
+    color: $light-jelly-bean;
+    transition: .6s ease-in-out;
+    visibility:hidden;
+  }
+  .social-link-contact:hover{
+    transform: scale(1.1);
+    color: $baby-powder;
+}
+
+  /* ABOUT */
+  .about__socials{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.about__social-link{
+    font-size: 8rem;
+    color: $baby-powder;
+    transition: .6s ease-in-out;
+    margin-top: 2rem;
+}
+.about__social-link:hover{
+    transform: scale(1.1);
+    color: $mint;
 }
