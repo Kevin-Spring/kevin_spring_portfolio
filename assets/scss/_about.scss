@@ -120,13 +120,33 @@
     border: 1px solid $baby-powder;
 }
 
+.sandberg:hover{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/andreassandberg_pre.jpg);
+}
+.crooked:hover{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/crookedtrees_2_pre.jpg);
+}
+.leopard:hover{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/leopard_pre.jpg);
+}
+
 .main__projects-item-img{
     color: $baby-powder;
     font-size: 1.5rem;
     padding: 2rem;
     position: relative;
     top: 4rem;
-
+    height: 10rem;
+    width: 20rem;
+    text-decoration: none;
 }
 
 /* @mixin main__projects-item-img{
