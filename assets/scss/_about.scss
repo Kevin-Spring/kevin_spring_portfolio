@@ -1,3 +1,4 @@
+
 .about__wrapper {
     font-family: $fontfamily;
     color: $baby-powder;
@@ -21,14 +22,17 @@
      1px 1px 0 $baby-powder;
     transform-style: preserve-3d;
     display: block;
-    height: 150vh;
+    //height: 147vh;
     width: 80vw;
+}
+.threeD{
+    margin-bottom: 20rem;
 }
 
 .main{
-    position: absolute;
+    position: relative;
     width: 80vw;
-    top: 90%;
+    //top: 90%;
     left: 50%;
     transform: translateX(-50%);
     padding: 2rem;
@@ -70,6 +74,7 @@
     text-align: center;
     font-size: 4rem;
     letter-spacing: 5px;
+    padding: 1rem;
 }
 
 .main__projects-container{
@@ -115,12 +120,13 @@
     text-align: center;
     position: relative;
     border: 1px dashed $baby-powder;
+    margin: 1rem;
 } 
 .main__projects-item:hover{
     border: 1px solid $baby-powder;
 }
 
-.sandberg:hover{
+/* .sandberg:hover{
     background-position: center;
     background-size: cover;
     background-image: url(../img/andreassandberg_pre.jpg);
@@ -136,7 +142,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../img/leopard_pre.jpg);
-}
+} */
 
 .main__projects-item-img{
     color: $baby-powder;
@@ -147,6 +153,12 @@
     height: 10rem;
     width: 20rem;
     text-decoration: none;
+    text-align: center;
+}
+
+.main__projects-item-img:hover{
+    
+    text-decoration: underline;
 }
 
 /* @mixin main__projects-item-img{

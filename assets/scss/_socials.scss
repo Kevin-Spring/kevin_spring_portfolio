@@ -11,7 +11,7 @@
 .social-link{
     font-size: 10rem;
     color: white;
-    transition: .6s ease-in-out;
+    transition: .3s ease-in-out;
     visibility:hidden;
 }
 
@@ -30,10 +30,10 @@
   }
   
   .social-link-contact{
-    font-size: 10rem;
+    font-size: 8rem;
     color: $light-jelly-bean;
-    transition: .6s ease-in-out;
-    visibility:hidden;
+    transition: .3s ease-in-out;
+    /* visibility:hidden; */
   }
   .social-link-contact:hover{
     transform: scale(1.1);
@@ -50,7 +50,7 @@
 .about__social-link{
     font-size: 8rem;
     color: $baby-powder;
-    transition: .6s ease-in-out;
+    transition: .3s ease-in-out;
     margin-top: 2rem;
 }
 .about__social-link:hover{

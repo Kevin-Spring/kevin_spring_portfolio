@@ -39,7 +39,7 @@
         font-size: 6rem;
     }
     /* About */
-    .border-wrapper{
+    /* .border-wrapper{
         margin-top: 0vh;
     }
     .border{
@@ -47,6 +47,9 @@
     }
     .main{
         top: 70%;
+    } */
+    .threeD{
+        margin: 5rem;
     }
     .main__header{
         font-size: 4rem;
@@ -59,6 +62,9 @@
     }
     .main__projects-item{
         margin: 1rem;
+    }
+    .main__projects-item-img{
+        text-decoration: underline;
     }
 
     .about__social-link{
@@ -94,14 +100,17 @@
         font-size: 5rem;
     }
     /* About */
-    .border-wrapper{
+    /* .border-wrapper{
         margin-top: 0vh;
     }
     .border{
         height: 230vh;
-    }
-    .main{
-        top: 90%;
+    } */
+    /* .main{
+        top: 70%;
+    } */
+    .threeD{
+        margin-bottom: 0;
     }
     .main__header{
         font-size: 4rem;
@@ -119,6 +128,7 @@
     }
     .main__projects-item-img{
         font-size: 1.2rem;
+        text-decoration: underline;
     }
     .main__projects-container{
         padding: 0;
