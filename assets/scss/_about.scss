@@ -29,6 +29,14 @@
     margin-bottom: 20rem;
 }
 
+.threeD.robot {
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
 .main{
     position: relative;
     width: 80vw;

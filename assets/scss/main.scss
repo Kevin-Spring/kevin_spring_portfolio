@@ -5,6 +5,7 @@
 @import "navbar.scss";
 @import "effect-box.scss";
 @import "socials.scss";
+@import "projects.scss";
 @import "contact.scss";
 @import "about.scss";
 @import "cv.scss";
@@ -30,5 +31,17 @@
 
 body {
     overflow-x: hidden;
+    position: relative;
     background: $faded-black;
+    font-family: $fontfamily;
+    min-height: 100vh;
+}
+
+.typewriter-wrapper {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2rem;
+    text-align: center;
 }

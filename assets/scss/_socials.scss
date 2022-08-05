@@ -9,15 +9,20 @@
 }
 
 .social-link{
-    font-size: 10rem;
+    font-size: 1.5rem;
     color: white;
-    transition: .3s ease-in-out;
-    visibility:hidden;
+    visibility: hidden;
+
+    i {
+        transition: all .2s ease-in-out;
+    }
 }
 
 .social-link:hover{
-    transform: scale(1.1);
-    color: $light-jelly-bean;
+    cursor: pointer;
+    i {
+        opacity: .8;
+    }
 }
 
 /* CONTACT */

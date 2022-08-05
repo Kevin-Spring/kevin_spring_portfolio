@@ -30,14 +30,7 @@
 /* Ipad (Landscape and Portrait */
 @media only screen and (min-width : 768px) and (max-width : 1025px) {
     /* Navbar */
-    .navbar__links-item{
-        font-size: 4rem;
-    }
     /* Landing Page */
-    
-    .social-link{
-        font-size: 6rem;
-    }
     /* About */
     /* .border-wrapper{
         margin-top: 0vh;
@@ -48,7 +41,7 @@
     .main{
         top: 70%;
     } */
-    .threeD{
+    .threeD:not(.robot){
         margin: 5rem;
     }
     .main__header{
@@ -91,14 +84,7 @@
 @media only screen and (min-width : 300px) and (max-width : 766px){
     
     /* Navbar */
-    .navbar__links-item{
-        font-size: 2.5rem;
-    }
     /* Landing Page */
-    
-    .social-link{
-        font-size: 5rem;
-    }
     /* About */
     /* .border-wrapper{
         margin-top: 0vh;

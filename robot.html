@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="assets/img/site_preview.jpg">
+    <title>Springdesign | AI</title>
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- Import script for 3D text animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="navbar__links">
+        <div class="navbar__links__item-wrapper">
+            <h3 class="navbar__links-item stagger-animation"> <a href="index.html" class="iglo"><i class="fas fa-igloo"></i></a> </h3>
+            <h3 class="navbar__links-item stagger-animation"> <a href="projects.html" class="effect-box"><i class="fas fa-folder-open"></i></a> </h3>
+            <!-- <h3 class="navbar__links-item stagger-animation"> <a href="about.html" class="effect-box">About</a> </h3> -->
+            <!-- <h3 class="navbar__links-item stagger-animation"> <a href="contact.html" class="effect-box">Contact</a> </h3> -->
+            <!-- <h3 class="navbar__links-item stagger-animation"> <a href="cv.html" class="effect-box">cv</a> </h3> --> 
+        </div>
+    </header>
+
+    <section class="typewriter-wrapper">
+        <p id="typewriter"></p>
+
+        <script>
+            var i = 0;
+            var txt = "Hello.     I am Kevin.     Nice to meet you.     I was supposed to write a bio...           Maybe I'll add it later on.           I really just wanted an excuse to build this robot.     Have a nice day!";
+            var speed = 80;
+
+            function typeWriter() {
+                if (i < txt.length) {
+                    document.getElementById("typewriter").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                }
+            }
+
+            typeWriter();
+        </script>
+    </section>
+
+    <!-- 3D text animation -->
+    <section class="robot threeD">
+        <div class="wrap">
+            <div class="text"><i class="fas fa-robot"></i></div>
+            <div class="text"><i class="fas fa-robot"></i></div>
+            <div class="text"><i class="fas fa-robot"></i></div>
+            <div class="text"><i class="fas fa-robot"></i></div>
+            <div class="text"><i class="fas fa-robot"></i></div>
+            <div class="text"><i class="fas fa-robot"></i></div>
+            <div class="text"><i class="fas fa-robot"></i></div>
+            <div class="text"><i class="fas fa-robot"></i></div>
+            <div class="text"><i class="fas fa-robot"></i></div>
+            <div class="text"><i class="fas fa-robot"></i></div>
+        </div>
+    </section>
+
+    <!-- Socials -->
+        <div class="socials projects">
+        <a href="mailto:spriiing@hotmail.se" target="_newblank" class="social-link stagger-animation"><i class="fas fa-envelope"></i></a>
+        <a href="tel:0046707974475" target="_newblank" class="social-link stagger-animation"><i class="fas fa-phone"></i></a>
+        <a href="https://www.linkedin.com/in/kevin-spring/" target="_newblank" class="social-link stagger-animation"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Kevin-Spring" target="_newblank" class="social-link stagger-animation"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/kevininthespring/" target="_newblank" class="social-link stagger-animation"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <!-- <div class=""><i class="far fa-hand-spock hand"></i></div> -->
+    <!-- Import the GSAP Platform -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
+</body>
+
+</html>

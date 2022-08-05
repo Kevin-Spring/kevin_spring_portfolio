@@ -1,7 +1,13 @@
 .navbar__links{
-    border: 1rem solid $baby-powder;
+    /* border: .3rem solid $baby-powder; */
     padding: 1rem;
     margin-bottom: 3rem;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        opacity: .8;
+        cursor: pointer;
+    }
 }
 
 .navbar__links__item-wrapper{
@@ -16,15 +22,11 @@
     display: inline-block;
     position: relative;
     font-family: $fontfamily;
-    font-size: 7rem;
+    font-size: 2rem;
     text-transform: uppercase;
     font-weight: 800;
     color: $baby-powder;
 }
 .iglo{
     color: $baby-powder;
-}
-.iglo:hover{
-    color: $mint;
-    transition: .3s ease;
 }

@@ -6,7 +6,7 @@ const concat = require("gulp-concat");
 let cleanCSS = require("gulp-clean-css");
 sass.compiler = require("node-sass");
 
-const SCSS_PATH = "assets/scss/main.scss";
+const SCSS_PATH = "assets/scss/*.scss";
 
 //styles
 
